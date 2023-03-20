@@ -92,9 +92,9 @@
 
 # 👥 Authors:
 ### 👤 Lengushuru Charles:
-- GitHub: [@Salwa99](https://github.com/lengushuru)
-- Twitter: [@SalwaBallouti](https://twitter.com/ngushuru)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lengushuru-charles-a09371111/)
+- GitHub: [@Slengushuru](https://github.com/lengushuru)
+- Twitter: [@lengush](https://twitter.com/ngushuru)
+- LinkedIn: [@lengushuru](https://www.linkedin.com/in/lengushuru-charles-a09371111/)
 
 # 🔭 Future Features:
 - Improve appearence.
