@@ -53,7 +53,7 @@
 # Usage:
 ### To run the project, execute the following command:
   ```sh 
-  git clone https://github.com/Salwa99/Math-magician.git
+  git clone https://github.com/lengushuru/Math-magician.git
   ```
   ```sh 
   cd math-magician
@@ -91,7 +91,7 @@
 - Github pages.
 
 # 👥 Authors:
-### 👤 Salwa Ballouti:
+### 👤 Lengushuru Charles:
 - GitHub: [@Salwa99](https://github.com/lengushuru)
 - Twitter: [@SalwaBallouti](https://twitter.com/ngushuru)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lengushuru-charles-a09371111/)
