@@ -34,7 +34,7 @@
 - Installed Git.
 - Create a local directory that you want to clone the repository.
 - Open the command prompt in the created directory.
-- On the terminal run this command git clone https://github.com/Salwa99/Math-magician.git
+- On the terminal run this command git clone https://github.com/lengushuru/math-magician.git
 - Install the dev dependencies for linters run npm install.
 
 # Prerequisites:
