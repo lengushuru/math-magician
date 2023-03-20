@@ -117,4 +117,4 @@ I would like to acknowledge microverse for an opportunity to learn how to buld t
 
 
 # 📝 License:
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
