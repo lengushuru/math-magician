@@ -1,7 +1,7 @@
 const Calculator = () => (
   <div className="calc">
     <div className="calc-header">
-      <h2>maths can smile</h2>
+      <h2>Maths can smile</h2>
     </div>
 
     <div className="calc-container">
