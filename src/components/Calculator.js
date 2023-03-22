@@ -1,8 +1,4 @@
-import PropTypes from 'prop-types';
-
-const Display = ({ output }) => (
-  <div className="display">{ output }</div>
-);
+import Display from './Display';
 
 const Calculator = () => (
   <div className="calc">
@@ -52,9 +48,5 @@ const Calculator = () => (
     </div>
   </div>
 );
-
-Display.propTypes = {
-  output: PropTypes.string.isRequired,
-};
 
 export default Calculator;
