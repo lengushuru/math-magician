@@ -1,3 +1,9 @@
+import PropTypes from 'prop-types';
+
+const Display = ({ output }) => (
+  <div className="display">{ output }</div>
+);
+
 const Calculator = () => (
   <div className="calc">
     <div className="calc-header">
@@ -5,7 +11,7 @@ const Calculator = () => (
     </div>
 
     <div className="calc-container">
-      <div className="display">0</div>
+      <Display output={0} />
 
       <div className="container">
 
@@ -46,5 +52,9 @@ const Calculator = () => (
     </div>
   </div>
 );
+
+Display.propTypes = {
+  output: PropTypes.string.isRequired,
+};
 
 export default Calculator;
