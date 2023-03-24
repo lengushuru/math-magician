@@ -3,11 +3,11 @@ import Display from './Display';
 import calculate from './logic/calculate';
 
 const Calculator = () => {
-  const [state, setState] = useState({total: 0,next: 0,operation:undefined,});
+  const [state, setState] = useState({ total: 0, next: 0, operation: undefined });
 
-  const EventHandler = event => {
+  const EventHandler = (event) => {
     const output = calculate(state, event.target.textContent);
-    setState(state => ({...state,...output,}));
+    setState((state) => ({ ...state, ...output }));
   };
 
   const { total, next } = state;
