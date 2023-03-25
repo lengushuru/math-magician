@@ -8,12 +8,14 @@ function Quotes() {
   useEffect(() => {
     const fetchData = async () => {
       setIsLoading(true);
-      const response = await fetch('https://api.api-ninjas.com/v1/quotes?category=success', {
+      const apiURL = 'https://api.api-ninjas.com/v1/quotes?category=success';
+      const options = {
         headers: {
           'X-Api-Key': 'QyNqU7BO+mOh0A4vr4gX3A==7XFXB69hV6VonZGg',
         },
         method: 'GET',
-      }).catch((error) => {
+      };
+      const response = await fetch(apiURL, options).catch((error) => {
         showerror(true);
         return error;
       });
