@@ -5,7 +5,7 @@ const Display = ({ output }) => (
 );
 
 Display.propTypes = {
-  output: PropTypes.number.isRequired,
+  output: PropTypes.string.isRequired,
 };
 
 export default Display;
