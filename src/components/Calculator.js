@@ -10,7 +10,7 @@ const Calculator = () => {
     setState((state) => ({ ...state, ...output }));
   };
 
-  const { total, next } = state;
+  const { total, next, operation } = state;
 
   return (
     <div className="calc">
@@ -19,7 +19,7 @@ const Calculator = () => {
       </div>
 
       <div className="calc-container">
-        <Display output={next || total || 0} />
+        <Display output={next || operation || total || 0} />
 
         <div className="container">
 

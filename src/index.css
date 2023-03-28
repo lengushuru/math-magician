@@ -5,9 +5,10 @@
 }
 
 body {
-  /* background-color: #050518; */
+  background-color: #050518;
   font-family: sans-serif;
   overflow: auto;
+  color: #fff;
 }
 
 .calc-header h2 {
