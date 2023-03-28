@@ -11,6 +11,29 @@ body {
   color: #fff;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #050518;
+  border-bottom: 1px solid #616164;
+  box-shadow: #b8b2b2 0px 0px 10px 0px;
+  color: #fff;
+}
+
+.links {
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .calc-header h2 {
   color: #fff;
   font-size: 2rem;
