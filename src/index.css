@@ -11,26 +11,47 @@ body {
   color: #fff;
 }
 
-.calc-header h2 {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #050518;
+  border-bottom: 1px solid #616164;
+  box-shadow: #b8b2b2 0 0 10px 0;
   color: #fff;
-  font-size: 2rem;
+}
+
+.links {
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.page-title,
+.calc-title {
+  color: #fff;
+  font-size: 3.5rem;
   font-weight: 400;
-  text-align: center;
-  margin-top: 2rem;
 }
 
 .calc-container {
   width: 50vw;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  margin-top: 2rem;
+  background-color: #d7d4d4;
 }
 
 .display {
   padding: 4%;
   text-align: right;
-  background: rgb(113, 110, 110);
+  background: rgb(120, 119, 119);
   color: aliceblue;
   font-size: 1.8rem;
   font-weight: 300;
@@ -38,14 +59,15 @@ body {
 
 button {
   color: rgb(22, 23, 20);
-  background: rgb(224, 225, 222);
+  background: rgb(245, 245, 244);
   padding: 5%;
   font-size: 1.8rem;
   cursor: pointer;
   outline: none;
   appearance: none;
   border: 1px solid rgb(220, 209, 209);
-  transition: all 0.4s ease-out;
+  transition: all 0.5s ease-out;
+  border-radius: 10px;
 }
 
 .container {
@@ -73,6 +95,12 @@ button {
 .digits-numbers button {
   flex: 1 1 33.3%;
   max-width: 33.3%;
+}
+
+.calc {
+  display: flex;
+  justify-content: space-between !important;
+  padding: 1rem;
 }
 
 .calc-top {
@@ -115,5 +143,17 @@ button {
   font-family: sans-serif;
   font-size: 1.5rem;
   font-weight: 300;
+  padding: 2rem;
+}
+
+.main-content {
+  border: 1px solid #fff;
+  height: 92.5vh;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
   padding: 2rem;
 }

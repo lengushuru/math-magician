@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 
 function Quotes() {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState([{ author: 'German Proverb', quote: 'Who begins too much accomplishes little.' }]);
   const [isLoading, setIsLoading] = useState(false);
-  const [error, showerror] = useState(false);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -15,23 +15,24 @@ function Quotes() {
         },
         method: 'GET',
       };
-      const response = await fetch(apiURL, options).catch((error) => {
-        showerror(true);
-        return error;
-      });
-      const json = await response.json();
-      setData(json);
+      try {
+        const response = await fetch(apiURL, options);
+        const json = await response.json();
+        setData(json);
+      } catch (error) {
+        setError(true);
+      }
       setIsLoading(false);
     };
     fetchData();
   }, []);
 
   if (isLoading) return <div>Loading...</div>;
-  if (error) return <div>error loading quotes...</div>;
+  if (error) return <div>Error loading quotes...</div>;
 
   return (
     <div className="quotes">
-      {data.map((element) => `${element.quote} - ${element.author}`) }
+      {data.map((element) => `${element.quote} - ${element.author}`)}
     </div>
   );
 }
