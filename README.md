@@ -16,7 +16,7 @@
 
 # 🚀 Live Demo <a name="live-demo"></a>
 
-[Math Magician]()
+[Math Magician](https://math-magician-psi.vercel.app/quotes)
 ### Server:
 - local.
 ### Database:
